@@ -1,0 +1,123 @@
+.hero_main .container .row {
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--shade2-grey);
+  display: grid;
+  grid-template-columns: 0.8fr 2fr 1fr;
+  grid-gap: 0 20px;
+  background-color: var(--white);
+  margin-block: 20px 30px;
+}
+.hero_main .container .row .col_menu_otr .col_menu_inr .menu_ul {
+  display: flex;
+  flex-direction: column;
+}
+.hero_main .container .row .col_menu_otr .col_menu_inr .menu_ul .menu_li {
+  display: block;
+}
+.hero_main .container .row .col_menu_otr .col_menu_inr .menu_ul .menu_li .menu_a {
+  display: block;
+  padding: 10px;
+  color: var(--shade-black);
+  transition: var(--transition-norm);
+  border-radius: var(--radius);
+  color: #505050;
+}
+.hero_main .container .row .col_menu_otr .col_menu_inr .menu_ul .menu_li .menu_a:hover {
+  background-color: var(--tint4-blue);
+  color: var(--shade-black);
+}
+.hero_main .container .row .col_banner_otr {
+  border: 1px solid red;
+}
+.hero_main .container .row .col_banner_otr .col_banner_inr {
+  position: relative;
+  height: 100%;
+}
+.hero_main .container .row .col_banner_otr .col_banner_inr .img_otr {
+  height: 100%;
+}
+.hero_main .container .row .col_banner_otr .col_banner_inr .img_otr .banner_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero_main .container .row .col_banner_otr .col_banner_inr .banner_content_otr {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transform: translate(-10%, -20%);
+}
+.hero_main .container .row .col_banner_otr .col_banner_inr .banner_content_otr .banner_content_inr .heading {
+  margin-bottom: 17px;
+}
+.hero_main .container .row .col_banner_otr .col_banner_inr .banner_content_otr .banner_content_inr .action_otr .learn_btn {
+  background: var(--white);
+  color: var(--shade-black);
+}
+.hero_main .container .row .col_banner_otr .col_banner_inr .banner_content_otr .banner_content_inr .action_otr .learn_btn:hover {
+  color: var(--white);
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px 0;
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .user_otr .user_inr {
+  background: var(--tint3-blue);
+  border-radius: var(--radius);
+  padding: 12px 10px;
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .user_otr .user_inr .profile_otr .profile_inr {
+  display: flex;
+  gap: 0 10px;
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .user_otr .user_inr .profile_otr .profile_inr .image_otr {
+  background: #91B1E7;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 44px;
+  height: 44px;
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .user_otr .user_inr .profile_otr .profile_inr .image_otr .image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .user_otr .user_inr .action_main {
+  display: flex;
+  justify-content: center;
+  gap: 7px 0;
+  flex-direction: column;
+  margin-top: 13px;
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .user_otr .user_inr .action_main .action_otr .join_btn {
+  display: flex;
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .user_otr .user_inr .action_main .action_otr .login_btn {
+  display: flex;
+  border: 1px solid var(--shade2-grey);
+  background: var(--white);
+  color: var(--shade-black);
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .user_otr .user_inr .action_main .action_otr .login_btn:hover {
+  color: var(--white);
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .offer_otr .offer_inr {
+  padding: 16px;
+  border-radius: var(--radius);
+  background: #F38332;
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .offer_otr .offer_inr .offer_text {
+  color: var(--white);
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .supplier_otr .supplier_inr {
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--cadet-blue);
+}
+.hero_main .container .row .col_side_content_otr .col_side_content_inr .supplier_otr .supplier_inr .supplier_text {
+  color: var(--white);
+}
